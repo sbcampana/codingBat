@@ -15,7 +15,7 @@ public class Step {
         nums[4] = 2;
 
         System.out.println("BIG STEPS: " + bigHeights(nums, 2, 4));
-        System.out.println("2x Big Steps: " + bigHeights(nums, 2, 4) * 2);
+        System.out.println("2x Big Steps: " + bigHeights(nums, 2, 4) + 2);
     }
 
     public static int bigHeights(int[] heights, int start, int end) {
